@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Adivinhação</title>
+    <link rel="stylesheet" href="jogo.css">
+</head>
+<body style="background-image: url(Imagem\ super\ mario.jpg);">
+    <div class="game-container">
+        <h1>Jogo de Adivinhação</h1>
+        <p>Tente adivinhar um número entre 0 e 15</p>
+        <input type="number" id="guessInput" placeholder="Digite um número" min="1" max="15">
+        <button onclick="adivinhar()">Adivinhar</button>
+        <p id="resultado"></p>
+    </div>
+    
+    <canvas id="confetti"></canvas>
+
+
+    <script src="jogo.js"></script>
+</body>
+</html>
